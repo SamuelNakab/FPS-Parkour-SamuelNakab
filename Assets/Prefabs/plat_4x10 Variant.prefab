@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 3611361846247318668, guid: 19cbcbc33aa7dfd479eecec8c90b495f,
         type: 3}
       propertyPath: m_Name
-      value: plat_4x10
+      value: plat_4x10 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19cbcbc33aa7dfd479eecec8c90b495f, type: 3}

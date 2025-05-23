@@ -80,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 4400239504861678498, guid: e0dec7d4dc1d2e84eae3d55e732f60cd,
         type: 3}
       propertyPath: m_Name
-      value: plat_1x10 (1)
+      value: plat_1x10 (1) Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0dec7d4dc1d2e84eae3d55e732f60cd, type: 3}

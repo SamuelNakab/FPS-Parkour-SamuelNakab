@@ -70,7 +70,7 @@ PrefabInstance:
     - target: {fileID: 8704660234873354971, guid: 8c575fd11770c124eb5750a3702583dd,
         type: 3}
       propertyPath: m_Name
-      value: Ramp30W1
+      value: Ramp30W1 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c575fd11770c124eb5750a3702583dd, type: 3}
