@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7787333505141171373}
   - component: {fileID: 8128906850429980206}
   - component: {fileID: 42842463931841690}
-  - component: {fileID: 114618137090093746}
+  - component: {fileID: 114394455708383720}
   m_Layer: 0
   m_Name: barrilPrefab
   m_TagString: Untagged
@@ -64,7 +64,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114618137090093746
+--- !u!114 &114394455708383720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,9 +73,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8060969750793688434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd034a4af112c8b4dbd708f2212ae016, type: 3}
+  m_Script: {fileID: 11500000, guid: 9da57aa408343814e93bfa521546cda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moneyManager: {fileID: 0}
+  cost: 18
 --- !u!1001 &5076954958265396020
 PrefabInstance:
   m_ObjectHideFlags: 0
