@@ -5,7 +5,7 @@ using TMPro;
 
 public class UImanager : MonoBehaviour
 {
-    public TextMeshPro txtMoney;
+    public TextMeshProUGUI txtMoney;
 
 
     public void UpdateMoneyText(string money)
