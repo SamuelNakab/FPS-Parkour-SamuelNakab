@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MercanciaSript : MonoBehaviour
+public class DamagerScript : MonoBehaviour
 {
-    public MoneyManager moneyManager;
-    public float cost = 5;
+    public HealthManager healthManager;
+    public int damage = 35;
 
     void Start()
     {
-        moneyManager = FindObjectOfType<MoneyManager>();
+        healthManager = FindObjectOfType<HealthManager>();
     }
 
     void OnCollisionEnter(Collision collision)
@@ -17,7 +17,7 @@ public class MercanciaSript : MonoBehaviour
         Debug.Log(collision.gameObject);
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (moneyManager.UpdateMoeny(-cost))
+            if (healthManager.UpdateHp(-damage))
             {
                 Destroy(gameObject);
             }
