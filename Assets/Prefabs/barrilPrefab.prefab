@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyManager: {fileID: 0}
-  cost: 18
+  cost: -10
 --- !u!1001 &5076954958265396020
 PrefabInstance:
   m_ObjectHideFlags: 0

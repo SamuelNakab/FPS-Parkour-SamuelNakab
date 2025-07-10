@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -22.775002, y: 252.739, z: 49.156002}
---- !u!54 &8001315040536688493
+--- !u!54 &1098940888035728259
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!64 &7242947354166156494
 MeshCollider:
@@ -59,7 +59,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 12
   m_Mesh: {fileID: 4300000, guid: c9d53ea049f6b7145b530e49327d2cdd, type: 3}
 --- !u!114 &6976024352259313233
 MonoBehaviour:
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthManager: {fileID: 0}
-  damage: 25
+  damage: 101
 --- !u!1001 &4030496428681127099
 PrefabInstance:
   m_ObjectHideFlags: 0
